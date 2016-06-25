@@ -16,8 +16,8 @@ Run in sequence
 . Discovery service
 . Turbine service
 . Dashboard
-. Microservice(s), e.g. Camel Spring
- 
+. Microservice(s), e.g. Camel Spring (in "hystrix-try" branch)
+
 
 References
 ----------
