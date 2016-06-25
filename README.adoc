@@ -1,2 +1,30 @@
-=== Netflix + Spring Cloud
+Netflix + Spring Cloud
+======================
 A batch of services mimicking mighty NetFlix Open Source Platform solutions integrated with Spring Cloud
+
+
+Run RabbitMQ in Docker
+----------------------
+[source.console]
+𝜆 docker run -d --hostname localhost --name rabbitmq -p 4369:4369 -p 5671-5672:5671-5672 -p 25672:25672 rabbitmq:3
+𝜆 docker run -d --hostname localhost --name rabbitmq-management -p 15672:15672 rabbitmq:3-management
+
+
+Run in sequence
+---------------
+. Configuration service
+. Discovery service
+. Turbine service
+. Dashboard
+. Microservice(s), e.g. Camel Spring
+ 
+
+References
+----------
+- Microservice Architecture – Step by Step Tutorial, https://fernandoabcampos.wordpress.com/2016/02/04/microservice-architecture-step-by-step-tutorial/
+- Spring Netflix OSS microservices, https://github.com/fernandoabcampos/spring-netflix-oss-microservices
+
+
+Copying
+-------
+Copyright © 2016 - Terrence Miao. Free use of this software is granted under the terms of the GNU General Public License version 3 (GPLv3).
