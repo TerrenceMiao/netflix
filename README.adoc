@@ -9,6 +9,8 @@ Run RabbitMQ in Docker
 𝜆 docker run -d --hostname localhost --name rabbitmq -p 4369:4369 -p 5671-5672:5671-5672 -p 25672:25672 rabbitmq:3
 𝜆 docker run -d --hostname localhost --name rabbitmq-management -p 15672:15672 rabbitmq:3-management
 
+Go to RabbitMQ console http://localhost:15672/
+
 
 Run in sequence
 ---------------
