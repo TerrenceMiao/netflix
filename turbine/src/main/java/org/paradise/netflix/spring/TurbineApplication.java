@@ -6,7 +6,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.turbine.amqp.EnableTurbineAmqp;
 
 
-
 @SpringBootApplication
 @EnableTurbineAmqp
 @EnableEurekaClient
