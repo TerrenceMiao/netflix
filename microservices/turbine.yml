@@ -1,0 +1,2 @@
+server.port: 0
+turbine.amqp.port: 8989
