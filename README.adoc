@@ -28,8 +28,10 @@ Run in sequence
 
 References
 ----------
+- Spring Cloud 碎碎念, http://46aae4d1e2371e4aa769798941cef698.devproxy.yunshipei.com/ggjlvzjy/article/details/50594480
 - Microservice Architecture – Step by Step Tutorial, https://fernandoabcampos.wordpress.com/2016/02/04/microservice-architecture-step-by-step-tutorial/
 - Spring Netflix OSS microservices, https://github.com/fernandoabcampos/spring-netflix-oss-microservices
+- Spring Cloud - Netflix OSS Example, https://github.com/Oreste-Luci/netflix-oss-example
 
 
 Copying
