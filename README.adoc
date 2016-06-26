@@ -28,7 +28,7 @@ Run in sequence
 
 Hystrix Dashboard
 -----------------
-Go to URL: http://localhost:8179/
+Go to URL: http://localhost:8179/ and input Hystrix Stream URL http://localhost:8989/turbine.stream
 
 image::Hystrix{sp}Dashboard.png[Hystrix Dashboard]
 
