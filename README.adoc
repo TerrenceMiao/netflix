@@ -26,6 +26,11 @@ Run in sequence
   * Camel Spring ("hystrix-try" branch)
 
 
+Spring Boot Admin
+-----------------
+Which does NOT work with Euerka!
+
+
 References
 ----------
 - Spring Cloud 碎碎念, http://46aae4d1e2371e4aa769798941cef698.devproxy.yunshipei.com/ggjlvzjy/article/details/50594480

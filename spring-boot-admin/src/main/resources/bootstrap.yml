@@ -1,0 +1,5 @@
+info.version: 0.0.1-SNAPSHOT
+
+spring:
+  application.name: admin
+  cloud.config.enabled: false
