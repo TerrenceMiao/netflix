@@ -3,6 +3,8 @@ Netflix + Spring Cloud
 A batch of services mimicking mighty NetFlix Open Source Platform solutions integrated with Spring Cloud
 
 
+image::Netflix OSS Architecture.png[Netflix OSS Architecture]
+
 Run RabbitMQ in Docker
 ----------------------
 [source.console]
