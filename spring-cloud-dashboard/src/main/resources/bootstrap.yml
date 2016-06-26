@@ -1,0 +1,7 @@
+info:
+  version: 0.0.1-SNAPSHOT
+  name: Spring Cloud Dashboard
+
+spring:
+  application.name: cloud-dashboard
+  cloud.dashboard.turbine.url: http://localhost:8989/turbine.stream

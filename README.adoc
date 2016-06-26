@@ -35,6 +35,15 @@ Start Spring Boot Admin as:
 then go to URL: http://localhost:8085/
 
 
+Spring Cloud Dashboard
+----------------------
+Start Spring Cloud Dashboard as:
+[source.console]
+𝜆 eval $GRADLE_HOME/bin/gradle bootRun
+
+then go to URL: http://localhost:8086/
+
+
 References
 ----------
 - Spring Cloud 碎碎念, http://46aae4d1e2371e4aa769798941cef698.devproxy.yunshipei.com/ggjlvzjy/article/details/50594480
@@ -42,6 +51,7 @@ References
 - Spring Netflix OSS microservices, https://github.com/fernandoabcampos/spring-netflix-oss-microservices
 - Spring Cloud - Netflix OSS Example, https://github.com/Oreste-Luci/netflix-oss-example
 - Spring Boot Admin Reference Guide, http://codecentric.github.io/spring-boot-admin/1.3.4/
+- Spring Cloud Dashboard, https://github.com/VanRoy/spring-cloud-dashboard
 
 
 Copying

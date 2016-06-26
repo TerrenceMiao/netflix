@@ -1,0 +1,44 @@
+buildscript {
+	ext {
+		springBootVersion = '1.3.5.RELEASE'
+		springCloudVersion = 'Brixton.SR1'
+		springCloudDashboardVersion = '1.1.0.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'spring-boot' 
+
+jar {
+	baseName = 'cloud-dashboard'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile('org.springframework.cloud:spring-cloud-starter-eureka')
+
+    compile("com.github.vanroy:spring-cloud-dashboard:${springCloudDashboardVersion}")
+
+	testCompile('org.springframework.boot:spring-boot-starter-test') 
+}
+
+dependencyManagement {
+	imports {
+        mavenBom("org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}")
+    }
+}
