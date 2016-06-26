@@ -30,7 +30,9 @@ repositories {
 
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter")
-	compile("de.codecentric:spring-boot-admin-server:${springBootAdminVersion}")
+    compile('org.springframework.cloud:spring-cloud-starter-eureka')
+
+    compile("de.codecentric:spring-boot-admin-server:${springBootAdminVersion}")
 	compile("de.codecentric:spring-boot-admin-server-ui:${springBootAdminVersion}")
 
 	testCompile('org.springframework.boot:spring-boot-starter-test') 

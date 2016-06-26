@@ -28,7 +28,11 @@ Run in sequence
 
 Spring Boot Admin
 -----------------
-Which does NOT work with Euerka!
+Start Spring Boot Admin as:
+[source.console]
+𝜆 eval $GRADLE_HOME/bin/gradle bootRun
+
+then go to URL: http://localhost:8085/
 
 
 References
