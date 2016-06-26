@@ -29,6 +29,7 @@ Run in sequence
 Hystrix Dashboard
 -----------------
 Go to URL: http://localhost:8179/
+
 image::Hystrix{sp}Dashboard.png[Hystrix Dashboard]
 
 
