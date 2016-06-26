@@ -16,11 +16,12 @@ Go to RabbitMQ console http://localhost:15672/
 Run in sequence
 ---------------
 - Run the following base Netflix services:
-  .. Configuration service
-  .. Discovery service
-  .. Turbine service (depends on RabbitMQ)
-  .. Edge service
-  .. Dashboard (depends on RabbitMQ)
+  [start=1]
+  . Configuration service
+  . Discovery service
+  . Turbine service (depends on RabbitMQ)
+  . Edge service
+  . Dashboard (depends on RabbitMQ)
 
 - Then run the following microservices which have @EnableEurekaClient, @EnableFeignClients, @EnableCircuitBreaker enabled, e.g.:
   * Camel Spring ("hystrix-try" branch)
