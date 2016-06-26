@@ -41,6 +41,7 @@ References
 - Microservice Architecture – Step by Step Tutorial, https://fernandoabcampos.wordpress.com/2016/02/04/microservice-architecture-step-by-step-tutorial/
 - Spring Netflix OSS microservices, https://github.com/fernandoabcampos/spring-netflix-oss-microservices
 - Spring Cloud - Netflix OSS Example, https://github.com/Oreste-Luci/netflix-oss-example
+- Spring Boot Admin Reference Guide, http://codecentric.github.io/spring-boot-admin/1.3.4/
 
 
 Copying
